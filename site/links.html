@@ -5,6 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Links</title>
+    <style>
+      a:link {
+        color: green;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: pink;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <h1>Hyperlinks on Webpages</h1>
@@ -15,6 +37,12 @@
       By default, links will appear underlined and blue if unvisited, and
       underlined and purple if visited. But the styles of links can be changed
       using CSS.
+      <a href="colors.html" style="text-decoration: none">Colors Page</a> <--
+      Here is a link where the underline has been removed.
+    </p>
+    <p>
+      Now, we need a link so that we can jump down to
+      <a href="#C2">Heading 2</a>.
     </p>
 
     <!-- target attributes specifies where to open the linked document. -->
@@ -23,12 +51,12 @@
         >This link will be opened in a new window or tab.
       </a>
     </p>
-
+    <hr />
     <!-- ^Absolute URLs are the full web address. 
         Relative URLs are links to pages within the same website. -->
     <p>Here is a link to the <a href="/colors.html">Colors Page.</a></p>
-
-    <!-- Images can also be links. -->
+    <hr />
+    <!-- Images can also be links. -- />
     <p>The picture of Libby is now a link to the Colors Page.</p>
     <a href="colors.html">
       <img src="libby.jpg" alt="Libby" style="width: 300px" />
@@ -41,8 +69,24 @@
       touch. Let's work together!
     </p>
 
-    <button onclick="document.location='colors.html'">Colors Page</button>
+    <button
+      style="
+        background-color: #1d4e89;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 10px;
+      "
+      onclick="document.location='colors.html'"
+    >
+      Colors Page
+    </button>
 
     <p><a href="colors.html" title="Visit the Colors Page">Colors Page</a></p>
+
+    <h2 id="C2">Heading 2</h2>
+    <p>Here is another content paragraph.</p>
   </body>
 </html>

@@ -1,2 +1,2 @@
 # learnings
-w3schools coding tutorials examples
+w3schools  and freecodecamp coding tutorials examples

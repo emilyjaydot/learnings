@@ -1,0 +1,132 @@
+body,html {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: url("forest-trail.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-blend-mode: multiply;
+    color: white;
+    font-family: sans-serif;
+}
+
+form {
+    background-color:rgba(24, 31, 28, 0.95);
+    border-radius: 0.63rem ;
+    padding: 2.5rem 0.625rem;
+
+    
+
+}
+
+h1, p {
+    color: white;
+    text-align:center;
+    margin: 10px auto;
+}
+
+.question {
+    color: white;
+    text-align: left;
+    margin: 5px auto;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    min-width: 550px;
+    margin: 3.125rem auto 0 auto;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-left: 4.94rem;
+}
+
+textarea {
+    margin-left: 4.94rem;
+}
+
+.name1, .email1, .age1, .occupation, .activity {
+    margin-left: 4.94rem;
+}
+
+.name1, .email1, .age1 {
+    width: 34.38rem;
+    min-width: 12.50rem;
+    height: 2.38rem;
+    border-radius: 0.653rem;
+    border: none;
+    margin-top: 0.38rem;
+    margin-bottom: 1.56rem;
+}
+
+.select-label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-left: 4.94rem;
+    margin-bottom: 0.38rem;
+}
+
+.input-comments {
+    width: 34.38rem;
+    min-height: 6.25rem;
+    border-radius: 00.63rem;
+}
+
+.inline {
+   margin: 0.38rem 0;
+}
+
+.select-label-comments, .select-label-activities, .select-label-favorite, .select-label-friend {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-left: 4.94rem;
+    margin-bottom: 0.38rem;
+    margin-top: 1.63rem;
+}
+
+.occupation, .activity {
+    width: 34.38rem;
+    height: 2.38rem;
+    border-radius: 0.653rem;
+}
+
+.dropdown-menu {
+    margin-left: 4.94rem;
+    width: 34.38rem;
+    height: 2.38rem;
+    position: relative;
+    font-size: 1.125rem;
+    border-radius: 0.63rem;
+    box-shadow: 0px 8px 16px rgba (0, 0, 0, 0.5);
+}
+
+.submit-button {
+    background-color: #78BC61;
+    border-radius: 0.63rem;
+    font-weight: 600;
+    font-size: 1.00rem;
+    text-transform: uppercase;
+    width:20rem;
+    height: 2.00rem;
+    border: none;
+    margin-left:10.63rem;
+    margin-top:2.56rem;
+
+}
+
+.inline {
+    display: inline-block;
+    position: relative;
+    margin-right:0.44rem;
+}

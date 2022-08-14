@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Botanical Horizons Social Club Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Design a registration/survery form for a secret club -->
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Botanical Horizons Social Club</h1>
+      <p id="description">Thank you for taking the time to help us improve.</p>
+      <section>
+        <form id="survey-form" action="">
+          <div id="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              class="name1"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div id="form-group">
+            <label for="email" id="email-label">Email</label>
+            <input
+              type="email"
+              class="email1"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div id="form-group">
+            <label for="number-label" id="number-label">Age</label>
+            <input
+              type="number"
+              class="age1"
+              name="age"
+              id="number"
+              min="30"
+              max="450"
+              placeholder="Enter your age"
+            />
+          </div>
+          <div id="form-group">
+            <label for="occupation" class="select-label"
+              >What is your current occupation?</label
+            >
+            <select name="occupation" id="dropdown" class="dropdown-menu">
+              <option value=" " class="occ">(select an option)</option>
+              <option value="1" class="occ">
+                Emergent Thought Strategizer
+              </option>
+              <option value="2" class="occ">
+                International Tomorrow Oracle
+              </option>
+              <option value="3" class="occ">
+                Enterprise Conversation Ninja
+              </option>
+              <option value="4" class="occ">Outageous Rain Maker</option>
+              <option value="5" class="occ">New Wave Revelation Shaker</option>
+            </select>
+          </div>
+          <div id="form-group">
+            <label for="friend" id="recommendation" class="select-label-friend"
+              >Would you like to recommend a friend to join Botanical
+              Horizons?</label
+            >
+            <label for="radio-button"
+              ><input
+                type="radio"
+                name="friend"
+                class="inline"
+                value="definitely"
+              />
+              Definitely</label
+            >
+            <label for="radio-button"
+              ><input type="radio" name="friend" class="inline" value="Maybe" />
+              Maybe</label
+            >
+            <label for="radio-button"
+              ><input
+                type="radio"
+                name="friend"
+                class="inline"
+                value="not-sure"
+              />
+              Not sure</label
+            >
+          </div>
+          <div>
+            <label for="activity" class="select-label-favorite"
+              >What is your favorite activity of Botanical Horizons?</label
+            >
+            <select name="activity" id="dropdown" class="dropdown-menu">
+              <option disabled selected value=" ">(select an option)</option>
+              <option value="book-club">Book Club</option>
+              <option value="nature-walks">Nature Walks</option>
+              <option value="art-making">Art Making Time</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="activities-added" class="select-label-activities"
+              >What activities would you like to see added to the Botanical
+              Horizons schedule?</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="kite-making" class="inline" /> Kite
+              Making</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="beekeeping" class="inline" />
+              Beekeeping</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="treehouse" class="inline" />
+              Treehouse Building</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="goat-yoga" class="inline" /> Goat
+              Yoga Sessions</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="whale-watching" class="inline" />
+              Whale Watching</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="mud-spas" class="inline" /> Mud
+              Spas</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="brunch" class="inline" /> Boozy
+              Brunch Picnics</label
+            >
+            <label for="activity">
+              <input type="checkbox" value="birdwatching" class="inline" />
+              Birdwatching</label
+            >
+          </div>
+          <div>
+            <label for="comments" class="select-label-comments"
+              >Do you have any other comments or suggestions for Botanical
+              Horizons?</label
+            >
+            <textarea
+              name="comments"
+              id="comments"
+              class="input-comments"
+              cols="30"
+              rows="10"
+              placeholder="Enter your comments here..."
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            id="submit"
+            value="Submit"
+            class="submit-button"
+          />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>

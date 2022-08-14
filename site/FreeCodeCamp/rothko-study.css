@@ -1,0 +1,77 @@
+.frame {
+width: 37.69rem;
+height: 47.75rem;
+background-color: #000000;
+padding: 15px;
+}
+.canvas {
+    width: 35.13rem;
+    height: 44.16rem;
+    background: #7c5656;
+    filter: blur(5px);
+    padding: 1.69rem 1.13rem;
+    overflow:hidden
+}
+
+.one {
+    width:495px ;
+    height:189px ;
+    background-color:#954d4d ;
+    margin-left:calc(50% - 495px/2 - 7.44px) ;
+    
+    filter: blur(16px);
+    border-radius: 50px 10px 23px 25px ;
+    transform: rotate(-0.07deg);
+}
+
+.two {
+    width: 511px;
+    height: 196px;
+    margin-left: calc(50% -511px/2 - 7.62px);
+    background-color: #4e1515;
+    filter: blur(7px);
+    border-radius: 20px 32px 10px 60px;
+    transform: rotate(-0.7deg);
+}
+
+.three {
+    width: 539px;
+    height: 166px;
+    margin-left: calc(50% - 539px/2 - 8.34px);
+    margin-top: 17px;
+    background: #494040;
+    filter: blur(16px);
+    border-radius: 15px 25px 36px 10px;
+    transform: rotate(0.11deg);
+}
+
+.four {
+    width: 539px;
+    height: 166px;
+    margin-left: calc(50% - 539px/2 - 8.34px);
+    margin-top: 17px;
+    background: #2f2828;
+    filter: blur(10px);
+    border-radius: 20px 10px 30px 45px;
+    transform: rotate(0.11deg);
+}
+
+.five {
+    width: 495px;
+    height: 295px;
+    margin-left: calc(50% - 495px/2 - 15.5px);
+    margin-top: 20px;
+    background: #433333;
+    filter: blur(35px);
+    border-radius: 26px 45px 46px 30px;
+}
+
+.six {
+    width: 495px;
+    height: 295px;
+    margin-left: calc(50% - 495px/2 - 15.5px);
+    margin-top: 20px;
+    background: #2f2323;
+    filter: blur(15px);
+    border-radius:15px 48px 10px 53px;
+}
